@@ -1,7 +1,7 @@
-JASSv2 Docker image for the SIGIR OSIRRC 2019 Open Source Challenge.
+JASS Docker image for the SIGIR OSIRRC 2019 Open Source Challenge.
 
-For details on how JASSv2's search differs from ATIRE and JASS see (and please cite):
+For details on how JASS search differs from ATIRE see (and please cite)
 
-A. Trotman, M. Crane (2019) Micro‐ and macro‐optimizations of SaaT search, Software: Practice and Experience 49(5):941-950
+J. Lin, A. Trotman (2015), Anytime Ranking for Impact-Ordered Indexes, Proceedings of the 2015 International Conference on The Theory of Information Retrieval (ICTIR 2015), pp. 301-304
 
 
