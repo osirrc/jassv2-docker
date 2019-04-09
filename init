@@ -22,4 +22,8 @@ cd JASSv1
 make
 cd ..
 
-exit 0
+# Build JASSv2
+cd build
+cmake -D FORCE_CMAKE_BUILD_TYPE=Release .. 
+make
+
