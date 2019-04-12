@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# the first parameter is the name of the topic file.
+# the second paramter if the top-k value
+
 echo "Searching..."
 
 # The name of the topic file
@@ -12,21 +15,21 @@ NPROC=`nproc`
 JASSv2/atire/evaluation/trec2query $TOPIC t > queries.txt
 
 # call JASSv2 to do the search
-JASSv2/build/anytime/JASS_anytime -q queries.txt -t $NPROC -k 100
+JASSv2/build/anytime/JASS_anytime -q queries.txt -t $NPROC -k $2
 
 # now copy the output to the output directory
 cp ranking.txt /output/JASSv2_100.txt
 
 
 # call JASSv2 to do the search
-JASSv2/build/anytime/JASS_anytime -q queries.txt -t $NPROC -k 100 -r 50
+JASSv2/build/anytime/JASS_anytime -q queries.txt -t $NPROC -k $2 -r 50
 
 # now copy the output to the output directory
 cp ranking.txt /output/JASSv2_50.txt
 
 
 # call JASSv2 to do the search
-JASSv2/build/anytime/JASS_anytime -q queries.txt -t $NPROC -k 100 -r 10
+JASSv2/build/anytime/JASS_anytime -q queries.txt -t $NPROC -k $2 -r 10
 
 # now copy the output to the output directory
 cp ranking.txt /output/JASSv2_10.txt
