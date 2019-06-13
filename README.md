@@ -1,3 +1,6 @@
+# OSIRRC Docker Image for JASSv2
+[![Generic badge](https://img.shields.io/badge/DockerHub-go%21-yellow.svg)](https://hub.docker.com/r/osirrc2019/jassv2)
+
 JASS Docker image for the SIGIR OSIRRC 2019 Open Source Challenge.
 
 For details on how JASSv2 search differs from JASS see (and please cite)
