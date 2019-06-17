@@ -7,10 +7,12 @@ git clone https://github.com/andrewtrotman/JASSv2.git
 
 # Get ATIRE
 cd JASSv2
+git reset --hard 507b89e
 hg clone http://www.atire.org/hg/atire
 
 # make ATIRE and trec2query
 cd atire 
+hg revert --rev caa2f2598c19 --all
 make
 cd evaluation
 make
