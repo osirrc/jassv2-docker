@@ -6,13 +6,15 @@ python3 run.py search  --repo jassv2/osirrc2019 --collection robust04 --topic to
 -->
 # OSIRRC Docker Image for JASSv2
 [![Generic badge](https://img.shields.io/badge/DockerHub-go%21-yellow.svg)](https://hub.docker.com/r/osirrc2019/jassv2)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3247175.svg)](https://doi.org/10.5281/zenodo.3247175)
 
 [**Andrew Trotman**](https://github.com/andrewtrotman)
 
 This readme is heavily based (i.e. copied from) the Anserini readme.
 
 This is the docker image for [JASSv2](https://github.com/andrewtrotman/JASSv2) conforming to the [OSIRRC jig](https://github.com/osirrc/jig/) for the [Open-Source IR Replicability Challenge (OSIRRC) at SIGIR 2019](https://osirrc.github.io/osirrc2019/).
-This image is has been tested with the jig at commit [ca31987](https://github.com/osirrc/jig/commit/ca3198704795f2b6de8b78ed7a66bbdf1dccadb1) (6/5/2019).
+This image is available on [Docker Hub](https://hub.docker.com/r/osirrc2019/jassv2).
+The [OSIRRC 2019 image library](https://github.com/osirrc/osirrc2019-library) contains a log of successful executions of this image.
 
 Although JASSv2 is a fully stand alone search system with indexer and search engine, this build relies on [ATIRE](http://atire.org) for indexing.  The JASSv2 indexer is currently experimental (as of June 2019), and has not been tested at scale.
 
