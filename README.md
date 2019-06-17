@@ -114,4 +114,4 @@ The retrieval run is performed and output is placed in `/output` for the `jig` t
 
 ## Reviews
 
-+ Documentation reviewed at commit [`dffe8bf`](https://github.com/osirrc/jassv2-docker/commit/eee0bd687cb36a2c92be55583ea3f2410dffe8bf) (2019-06-16) by [r-clancy](https://github.com/r-clancy/).
++ Documentation reviewed at commit [`dffe8bf`](https://github.com/osirrc/jassv2-docker/commit/eee0bd687cb36a2c92be55583ea3f2410dffe8bf) (2019-06-16) by [Ryan Clancy](https://github.com/r-clancy/).
